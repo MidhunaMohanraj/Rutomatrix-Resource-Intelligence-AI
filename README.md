@@ -73,7 +73,7 @@ The `llmService.js` is fully isolated. Switch providers by changing `LLM_PROVIDE
 ### Local Mac Setup (Ollama — Recommended Free Option)
 ```bash
 brew install ollama
-ollama pull llama3.2        # 2B model, fast
+ollama pull llama3.2       
 # or
 ollama pull mistral         # 7B, better quality
 ollama serve                # Starts at localhost:11434
